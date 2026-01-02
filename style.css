@@ -1,0 +1,395 @@
+body {
+  background: linear-gradient(135deg, #0b0b14, #120826);
+  /* fire fox */
+  scrollbar-width: thin;
+  scrollbar-color: #7b5cff transparent;
+  /* fire fox end*/
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff4ecd, #7b5cff);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff6adf, #9b7cff);
+}
+/* Chrome, Edge, Safari end*/
+
+  /* logo */
+  img {
+  margin-left: 21px;
+  width: 100px;
+  height: 100px;
+}
+/* logo end*/
+
+
+/* NAVBAR START */
+
+header {
+  color: gray;
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.navbar {
+  color: gray;
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  justify-content: space-between;
+  margin: 130px;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+li {
+  padding: 5px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* NAVBAR END*/
+
+div {
+  margin-left: 30px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* PEMBUKAAN START*/
+.fungsi-1 {
+  margin-top: 20px;
+}
+.fungsi-1 > p {
+  margin-bottom: 0px;
+  color: rgb(205, 10, 205);
+}
+
+.fungsi-1 > h1 {
+  margin-top: 0px;
+  font-size: 48px;
+  margin-bottom: 1px;
+  background: linear-gradient(90deg, #ff4ecd 0%, #9c27b0 30%, #4a148c 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fungsi-1 > p:nth-of-type(2) {
+  color: grey;
+}
+
+.fungsi-1 > p:nth-of-type(3) {
+  background: linear-gradient(90deg, #ff4ecd 0%, #9c27b0 60%, #4a148c 100%);
+  display: inline-block;
+  padding: 13px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+/* PEMBUKAAN AND*/
+
+/* ABOUT ME */
+.about {
+  color: white;
+  background-color: #141428;
+  border-radius: 15px;
+  padding: 5px;
+  display: inline-block;
+  padding-top: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 85px;
+  box-shadow: -1px 0px 35px 4px rgba(158, 28, 219, 0.15);
+  -webkit-box-shadow: -1px 0px 35px 4px rgba(158, 28, 219, 0.15);
+  -moz-box-shadow: -1px 0px 35px 4px rgba(158, 28, 219, 0.15);
+}
+
+.about > h2 {
+  margin-bottom: 0;
+  border-bottom: solid 1px #ffffff;
+  display: inline-block;
+  border-radius: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.about > p {
+  color: gray;
+  margin-top: 0;
+}
+/* ABOUT ME END*/
+
+/* SUPAYA KESUSUN KE SAMPING SKILL & EXPERIENCE NYA*/
+.porto {
+  display: flex;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+/* skill*/
+.skill {
+  color: white;
+  background-color: #141428;
+  border-radius: 15px;
+  padding: 2px;
+  width: 45%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  box-shadow: -1px 0px 35px 4px rgba(158, 28, 219, 0.15);
+  -webkit-box-shadow: -1px 0px 35px 4px rgba(158, 28, 219, 0.15);
+  -moz-box-shadow: -1px 0px 35px 4px rgba(158, 28, 219, 0);
+}
+
+.skill > h2 {
+  color: #f02dc5;
+}
+
+.skill > p {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.bar-max {
+  background-color: #1b1b30;
+  width: 100%;
+  height: 9px;
+  border-radius: 12px;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+.bar {
+  background: linear-gradient(90deg, #ff4ecd 0%, #9c27b0 60%, #4a148c 100%);
+  height: 9px;
+  margin-left: 0;
+  border-radius: 12px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.bar > p {
+  margin: 0;
+}
+/* skill END*/
+
+/* PENGALAMAN*/
+.pengalaman {
+  color: white;
+  background-color: #141428;
+  border-radius: 15px;
+  padding: 2px;
+  width: 40%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  box-shadow: -1px 0px 35px 4px rgba(158, 28, 219, 0.15);
+  -webkit-box-shadow: -1px 0px 35px 4px rgba(158, 28, 219, 0.15);
+  -moz-box-shadow: -1px 0px 35px 4px rgba(158, 28, 219, 0);
+}
+/* PENGALAMAN END*/
+
+/* project */
+.judul-project {
+  color: #f02dc5;
+}
+
+.kerja {
+  display: flex;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.kerja > div {
+  color: white;
+  background-color: #141428;
+  border-radius: 15px;
+  padding: 2px;
+  width: 40%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+/* project end*/
+
+/* kontak saya */
+.kontak {
+  text-align: center;
+}
+
+.kontak > p {
+  color: white;
+  display: inline-block;
+  margin: 10px;
+}
+
+.kontak > h2 {
+  color: #ffffff;
+  font-size: medium;
+  text-align: center;
+}
+/* kontak saya end*/
+
+
+
+
+/* ===============================
+   TABLET (601px – 1024px)
+   =============================== */
+@media (max-width: 1024px) {
+
+  /* Navbar */
+  .navbar {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+
+  /* Pembukaan */
+  .fungsi-1 > h1 {
+    font-size: 40px;
+  }
+
+  /* About */
+  .about {
+    margin-bottom: 60px;
+  }
+
+  /* Skill & Experience */
+  .porto {
+    gap: 20px;
+  }
+
+  .skill {
+    width: 50%;
+  }
+
+  .pengalaman {
+    width: 45%;
+    margin-left: 20px;
+  }
+
+  /* Project */
+  .kerja > div {
+    width: 45%;
+  }
+}
+
+
+/* ===============================
+   MOBILE / HP (≤600px)
+   =============================== */
+@media (max-width: 600px) {
+
+  /* Logo */
+  img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+  }
+
+  /* Navbar */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+
+  li {
+    padding: 3px;
+  }
+
+  /* Global spacing */
+  div {
+    margin-left: 15px;
+  }
+
+  /* Pembukaan */
+  .fungsi-1 > h1 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .fungsi-1 > p:nth-of-type(3) {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  /* About */
+  .about {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+
+  /* Skill & Experience → jadi vertikal */
+  .porto {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+
+  .skill,
+  .pengalaman {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  /* Skill bar */
+  .bar-max {
+    height: 8px;
+  }
+
+  .bar {
+    height: 8px;
+  }
+
+  /* Project */
+  .kerja {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kerja > div {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .kerja > div:nth-of-type(4){
+    margin-left: 21px;
+  }
+
+  /* Kontak */
+  .kontak > p {
+    font-size: 14px;
+    margin: 5px;
+  }
+
+  .kontak > h2 {
+    font-size: 14px;
+  }
+}
