@@ -6,7 +6,7 @@ body {
   /* fire fox end*/
 }
 
-/* Chrome, Edge, Safari */
+/* ======================Chrome, Edge, Safari===================== */
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -23,18 +23,18 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #ff6adf, #9b7cff);
 }
-/* Chrome, Edge, Safari end*/
+/* ====================Chrome, Edge, Safari end====================*/
 
-  /* logo */
+  /* =================logo======================= */
   img {
   margin-left: 21px;
   width: 100px;
   height: 100px;
 }
-/* logo end*/
+/* ==================logo end========================*/
 
 
-/* NAVBAR START */
+/* ====================NAVBAR START================== */
 
 header {
   color: gray;
@@ -63,14 +63,16 @@ li {
   font-family: "Segoe UI", sans-serif;
 }
 
-/* NAVBAR END*/
+/* ==========================NAVBAR END=======================*/
 
+/* ====================UNTUK SEMUA FONT & JARAK MARGIN KIRI LAYAR========================= */
 div {
   margin-left: 30px;
   font-family: "Segoe UI", sans-serif;
 }
+/* ======================================================================================= */
 
-/* PEMBUKAAN START*/
+/* =========================PEMBUKAAN START===============================*/
 .fungsi-1 {
   margin-top: 20px;
 }
@@ -100,9 +102,9 @@ div {
   border-radius: 25px;
   margin-bottom: 30px;
 }
-/* PEMBUKAAN AND*/
+/* ===========================PEMBUKAAN AND===================================*/
 
-/* ABOUT ME */
+/* ===========================ABOUT ME================================ */
 .about {
   color: white;
   background-color: #141428;
@@ -131,16 +133,17 @@ div {
   color: gray;
   margin-top: 0;
 }
-/* ABOUT ME END*/
+/* ==================================ABOUT ME END=====================================*/
 
-/* SUPAYA KESUSUN KE SAMPING SKILL & EXPERIENCE NYA*/
+/* =====================SUPAYA KESUSUN KE SAMPING SKILL & EXPERIENCE NYA=====================*/
 .porto {
   display: flex;
   margin: 0;
   margin-bottom: 60px;
 }
+/* =========================================================================================== */
 
-/* skill*/
+/* ==================================skill=======================================*/
 .skill {
   color: white;
   background-color: #141428;
@@ -187,9 +190,9 @@ div {
 .bar > p {
   margin: 0;
 }
-/* skill END*/
+/* ====================================skill END===================================*/
 
-/* PENGALAMAN*/
+/* ===================================PENGALAMAN===================================*/
 .pengalaman {
   color: white;
   background-color: #141428;
@@ -205,9 +208,9 @@ div {
   -webkit-box-shadow: -1px 0px 35px 4px rgba(158, 28, 219, 0.15);
   -moz-box-shadow: -1px 0px 35px 4px rgba(158, 28, 219, 0);
 }
-/* PENGALAMAN END*/
+/* ===================================PENGALAMAN END==============================*/
 
-/* project */
+/* ====================================project==================================== */
 .judul-project {
   color: #f02dc5;
 }
@@ -231,32 +234,49 @@ div {
   margin-left: 10px;
   text-align: center;
 }
-/* project end*/
+/* ================================project end================================*/
 
-/* kontak saya */
+/*============== kontak saya=================== */
 .kontak {
   text-align: center;
+   color: white;
 }
-
-.kontak > p {
-  color: white;
-  display: inline-block;
-  margin: 10px;
-}
-
 .kontak > h2 {
   color: #ffffff;
   font-size: medium;
   text-align: center;
 }
-/* kontak saya end*/
+/* =====kontak email======= */
+.kontainer-email{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.kontainer-email > p {
+  margin: 0;
+  display: inline;
+}
+/* =======kontak email end=======*/
+
+/* =======kontak phone========= */
+.kontainer-phone{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; 
+  margin-left: 23px;
+}
+/* ============kontak phone end========== */
+
+/* =================kontak saya end==================*/
 
 
 
 
-/* ===============================
+/* ======================================================================================================================================
    TABLET (601px – 1024px)
-   =============================== */
+   ===================================================================================================================================== */
 @media (max-width: 1024px) {
 
   /* Navbar */
@@ -296,9 +316,9 @@ div {
 }
 
 
-/* ===============================
+/* ======================================================================================================================================
    MOBILE / HP (≤600px)
-   =============================== */
+   ===================================================================================================================================== */
 @media (max-width: 600px) {
 
   /* Logo */
